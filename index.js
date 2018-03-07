@@ -1,6 +1,6 @@
-console.log('Lemon curry...?');
+console.log("Lemon curry...?");
 
-document.getElementById('app').innerText = 'Hello there!';
+document.getElementById("app").innerText = "Hello there!";
 
-const box = document.createElement('div');
+const box = document.createElement("div");
 document.body.appendChild(box);
