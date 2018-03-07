@@ -1,9 +1,14 @@
 body {
-	background: lightgreen;
+	background: rgb(111, 114, 116);
+}
+
+h2 {
+	color: rgb(211, 211, 218);
 }
 
 div {
 	width: 200px;
 	height: 200px;
 	background: gold;
+	border: 2px solid teal;
 }
