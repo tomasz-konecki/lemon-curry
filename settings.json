@@ -1,0 +1,66 @@
+// Controls whether to use .gitignore and .ignore files when searching for files.
+"search.useIgnoreFiles": true,
+
+// Configure editor settings to be overridden for [git-commit] language.
+"[git-commit]": {
+  "editor.rulers": [
+    72
+  ]
+},
+
+// Whether auto fetching is enabled
+"git.autofetch": false,
+
+// Whether auto refreshing is enabled
+"git.autorefresh": true,
+
+// Whether repositories should be automatically detected
+"git.autoRepositoryDetection": true,
+
+// Controls what type of branches are listed when running `Checkout to...`. `all` shows all refs, `local` shows only the local branches, `tags` shows only tags and `remote` shows only remote branches.
+"git.checkoutType": "all",
+
+// Confirm before synchronizing git repositories
+"git.confirmSync": true,
+
+// Controls the git badge counter. `all` counts all changes. `tracked` counts only the tracked changes. `off` turns it off.
+"git.countBadge": "all",
+
+// Controls if Git contributes colors and badges to the explorer and the open editors view.
+"git.decorations.enabled": true,
+
+// The default location where to clone a git repository
+"git.defaultCloneDirectory": null,
+
+// Controls whether to automatically detect git submodules.
+"git.detectSubmodules": true,
+
+// Enables commit signing with GPG.
+"git.enableCommitSigning": false,
+
+// Whether git is enabled
+"git.enabled": true,
+
+// Commit all changes when there are no staged changes.
+"git.enableSmartCommit": false,
+
+// Ignores the legacy Git warning
+"git.ignoreLegacyWarning": false,
+
+// Ignores the warning when there are too many changes in a repository
+"git.ignoreLimitWarning": false,
+
+// Ignores the warning when Git is missing
+"git.ignoreMissingGitWarning": false,
+
+// Controls when to show input validation.
+"git.inputValidation": "warn",
+
+// Path to the git executable
+"git.path": null,
+
+// Controls whether Git should check for unsaved files before committing.
+"git.promptToSaveFilesBeforeCommit": false,
+
+// Controls whether to show an inline Open File action in the Git changes view.
+"git.showInlineOpenFileAction": true
