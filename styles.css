@@ -1,3 +1,9 @@
 body {
 	background: lightgreen;
 }
+
+div {
+	width: 200px;
+	height: 200px;
+	background: gold;
+}
